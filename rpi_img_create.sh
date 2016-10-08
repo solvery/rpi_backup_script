@@ -27,3 +27,4 @@ mkfs.ext4 $rootp
 mkdir -p bootp root
 mount $bootp bootp
 mount $rootp root
+
