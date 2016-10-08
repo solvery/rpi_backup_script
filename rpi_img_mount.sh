@@ -12,11 +12,7 @@ rootp=${device}p2
 echo "Please Wait a moment..."
 sleep 5
 
-# Create file systems
-mkfs.vfat $bootp
-mkfs.ext4 $rootp
-
-mkdir -p bootp root
-mount $bootp bootp
-mount $rootp root
+mkdir -p b$2 r$2
+mount $bootp b$2
+mount $rootp r$2
 
