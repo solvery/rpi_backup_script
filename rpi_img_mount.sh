@@ -12,7 +12,7 @@ rootp=${device}p2
 echo "Please Wait a moment..."
 sleep 5
 
-mkdir -p b$2 r$2
-mount $bootp b$2
-mount $rootp r$2
+mkdir -p $2 $3
+mount $bootp $2
+mount $rootp $3
 
