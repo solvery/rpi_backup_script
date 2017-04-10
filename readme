@@ -1,0 +1,3 @@
+
+sh rpi_img_mount.sh rpi_ubuntu_8g.img 1b 1r
+sh rpi_img_mount.sh rpi_ubuntu16_16G.img 2b 2r
